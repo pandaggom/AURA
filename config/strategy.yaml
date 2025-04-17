@@ -1,0 +1,12 @@
+strategy:
+  profit_threshold: 0.05  # 익절 기준 수익률 (예: 5%)
+  loss_threshold: 0.02    # 손절 기준 손실률 (예: 2%)
+
+  hold_conditions:
+    take_profit_hold:  # 익절 유예 조건
+      execution_strength: "strong"     # 체결강도: 강함
+      foreign_flow: "buy_dominant"     # 외국인 수급: 매수 우세
+      news_sentiment: "positive"       # 뉴스: 긍정적
+    stop_loss_hold:    # 손절 유예 조건
+      short_interest: "decreasing"     # 공매도: 감소 추세
+      volume: "surging"                 # 거래량: 급증

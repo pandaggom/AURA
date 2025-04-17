@@ -1,0 +1,13 @@
+kis:
+  app_key: "${KIS_APP_KEY}"
+  app_secret: "${KIS_APP_SECRET}"
+  account: "${KIS_ACCOUNT}"
+  token_url_real: "https://openapi.koreainvestment.com:9443/oauth2/token"
+  token_url_sim: "https://openapivts.koreainvestment.com:29443/oauth2/token"
+  grant_type: "client_credentials"
+  content_type: "application/json"
+
+nu:
+  app_key: "${NU_APP_KEY}"
+  app_secret: "${NU_APP_SECRET}"
+  account: "${NU_ACCOUNT}"

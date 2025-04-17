@@ -2,3 +2,15 @@ aura_env/
 __pycache__/
 *.pyc
 .vscode/
+
+# 환경 파일
+.env
+.env.*
+*.env
+
+# 제외 해제: config.yaml
+!config/config.yaml
+
+# chatGPT랑 zip올리기 위한 파일과 경로
+temp_bundle/
+bundle_aura.sh
